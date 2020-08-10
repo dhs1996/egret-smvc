@@ -1,9 +1,9 @@
 module test {
     export class page2 extends smvc.windowController {
         constructor(){
-            super('page1');
-            this.view = new page2View('page1')
-            this.model = new page2Model('page1');
+            super('page2');
+            this.view = new page2View('page2')
+            this.model = new page2Model('page2');
             this.init();
         }
 
