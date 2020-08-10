@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="page2" width="640" height="1136" xmlns:e="http://ns.egret.com/eui">
+<e:Skin class="page2" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
 	<e:Label text="page2" y="404" horizontalCenter="0"/>
+	<e:Label id="label1" text="0" y="404" x="392"/>
 	<e:Button label="跳转到1" y="501" horizontalCenter="0" id="btn_goto"/>
+	<e:Button label="打开弹窗" y="571" id="btn_goto0" horizontalCenter="0"/>
 </e:Skin>

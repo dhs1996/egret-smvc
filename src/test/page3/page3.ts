@@ -21,10 +21,7 @@ module test {
         }
 
         public setData() {
-            this.viewDataChange({
-                key: 'image',
-                data: '1_png'
-            });
+            
         }
     }
 
@@ -34,13 +31,7 @@ module test {
         }
 
         public setData(obj: { key: string, data: any }) {
-            switch (obj.key) {
-                case 'image':
-                    this['image'].source = obj.data;
-                    break;
-                default:
-                    break;
-            }
+
         }
     }
 }

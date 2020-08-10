@@ -2,4 +2,5 @@
 <e:Skin class="page1" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
 	<e:Label text="page1" y="404" horizontalCenter="0"/>
 	<e:Button id="btn_goto" label="跳转到2" y="501" horizontalCenter="0"/>
+	<e:Image id="image" y="233" horizontalCenter="0"/>
 </e:Skin>

@@ -54,3 +54,5 @@ declare class page1 extends eui.Skin{
 }
 declare class page2 extends eui.Skin{
 }
+declare class page3 extends eui.Skin{
+}
