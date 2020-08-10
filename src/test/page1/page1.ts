@@ -8,6 +8,10 @@ module test {
 
         public onCreated(){
             (<page1Model>this.model).setData();
+            let view = <page1View>this.view;
+            (<eui.Button>view['btn_goto']).addEventListener('touchTap',()=>{
+                smvc.winMgr.show('page2');
+            },this);
         }
     }
 

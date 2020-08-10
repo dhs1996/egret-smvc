@@ -91,7 +91,7 @@ class Main extends eui.UILayer {
     }
 
     public initGame() {
-        smvc.winMgr = new smvc._winMgr(this.stage);
+        smvc.winMgr = new smvc._winMgr(this.stage.getChildAt(0));
     }
 
     /**
