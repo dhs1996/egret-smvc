@@ -3,6 +3,7 @@ module smvc {
         public id: string;
         constructor(id) {
             super();
+            this.id = id;
             this.skinName = id;
             this.initEvents();
         }
@@ -11,8 +12,8 @@ module smvc {
             Event.on(this.id + '_view_event', this.setData, this);
         }
 
-        public setData(obj:{key:string,data:any}) {
-            
+        public setData(obj: { key: string, data: any }) {
+
         }
 
         public $onRemoveFromStage() {

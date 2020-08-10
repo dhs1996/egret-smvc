@@ -13,21 +13,22 @@
 	],
 	"game": [
 		"bin-debug/smvc/controller.js",
+		"bin-debug/smvc/pop.js",
 		"bin-debug/smvc/model.js",
 		"bin-debug/smvc/view.js",
 		"bin-debug/smvc/window.js",
-		"bin-debug/ThemeAdapter.js",
 		"bin-debug/AssetAdapter.js",
 		"bin-debug/smvc/event.js",
 		"bin-debug/smvc/init.js",
-		"bin-debug/LoadingUI.js",
-		"bin-debug/smvc/pop.js",
 		"bin-debug/Main.js",
+		"bin-debug/LoadingUI.js",
 		"bin-debug/Platform.js",
+		"bin-debug/ThemeAdapter.js",
 		"bin-debug/smvc/winMgr.js",
 		"bin-debug/test/page1/page1.js",
 		"bin-debug/test/page2/page2.js",
 		"bin-debug/test/page2/page2Model.js",
-		"bin-debug/test/page2/page2View.js"
+		"bin-debug/test/page2/page2View.js",
+		"bin-debug/test/page3/page3.js"
 	]
 }
